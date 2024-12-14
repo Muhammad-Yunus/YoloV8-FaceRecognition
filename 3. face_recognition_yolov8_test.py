@@ -9,7 +9,7 @@ print("SuperVision version ", sv.__version__)
 
 
 # load Yolo V8 ONNX using Ultralytics Yolo
-model = "model/yolov8.onnx"
+model = "model/yolov8s.onnx"
 model = YOLO(model, task='detect')
 
 
